@@ -1,0 +1,22 @@
+.main-panel {
+    min-height: calc(100vh - 7.1rem);
+    margin-block-end: 0;
+    margin-block-start: 3.75rem;
+    margin-inline-start: 15rem;
+    display: flex;
+    flex-direction: column;
+    transition: margin-inline-start 240ms ease;
+    -webkit-transition: margin-inline-start 240ms ease;
+    -o-transition: margin-inline-start 240ms ease;
+    overflow: clip;
+    overflow: hidden;
+  }
+
+  .content-wrapper {
+    /* background: #F5F7FF; */
+    padding: 2rem 1rem;
+    width: 100%;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+  }
+  
